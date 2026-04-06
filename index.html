@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+  }
+
+  header {
+    background: #1e293b;
+    padding: 20px;
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+
+  header p {
+    color: #94a3b8;
+  }
+
+  section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  h2 {
+    border-bottom: 2px solid #38bdf8;
+    padding-bottom: 10px;
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+    background: #334155;
+  }
+
+  a {
+    color: #38bdf8;
+    text-decoration: none;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #1e293b;
+    margin-top: 30px;
+  }
+</style>
+
+</head>
+<body>
+
+<header>
+  <h1>Alvin Kipchirchir Kemboi</h1>
+  <p>Web Developer | HTML | CSS | JavaScript </p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>
+    I am a passionate technology student with a strong interest in software development, data 
+                structures, and the digital economy. I enjoy solving complex problems through clean code 
+                and innovative design. When I'm not coding, I'm likely following the latest 
+                trends in global football or exploring the Kenyan automotive market
+  </p>
+</section>
+
+<section>
+  <h2>Projects</h2>
+
+  <div class="projects">
+
+    <div class="card">
+      <h3>Tribute Page</h3>
+      <p>A tribute website showcasing a historical figure.</p>
+      <a href="https://github.com/primusalvin20-c-137/Abraham-Lincoln-">View Project</a>
+    </div>
+
+    <div class="card">
+      <h3>Laundry Website</h3>
+      <p>A service website for laundry and food delivery.</p>
+      <a href="#">View Project</a>
+    </div>
+
+    <div class="card">
+      <h3>Profile Web App</h3>
+      <p>A simple personal profile web application.</p>
+      <a href="#">View Project</a>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: alvinkkemboi@gmail.com</p>
+  <p>Phone: 0118861782</p>
+</section>
+
+<footer>
+  <p>Alvin Kipchichir Kemboi.</p>
+</footer>
+
+</body>
+</html>
